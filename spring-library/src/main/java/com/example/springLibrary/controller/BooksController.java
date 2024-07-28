@@ -66,7 +66,7 @@ public class BooksController {
     @PatchMapping("/{id}")
     public String update(@ModelAttribute("book") Book book, @PathVariable("id") int id, BindingResult bindingResult){
         if(bindingResult.hasErrors()){
-            return "people/edit";
+            return "books/edit";
         }
         bookDAO.update(id, book);
         return "redirect:/books";
