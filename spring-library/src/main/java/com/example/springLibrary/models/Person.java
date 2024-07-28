@@ -7,7 +7,7 @@ import jakarta.validation.constraints.Size;
 public class Person {
     private int id;
     @NotEmpty(message = "Full name shouldn't be empty")
-    @Size(min = 2, max = 200, message = "The name of author should be in between 2 to 200 characters")
+    @Size(min = 2, max = 200, message = "Full name should be in between 2 to 200 characters")
     private String fullName;
     @Min(value = 1900, message = "Year of birth should be greater than 1900")
     private int yearOfBirth;
