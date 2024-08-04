@@ -19,9 +19,9 @@ The project is a web application for managing library operations. It allows libr
 1. Clone the repository: git clone https://github.com/Alena-Danilko/library-on-jdbc.git
 2. Navigate to the project directory: cd library-on-jdbc
 3. Configure the database connection in spring-library/src/main/resources/database.properties
-url=jdbc:postgresql://localhost:5432/your_database_name
-user=your_username
-password=your_password
+- url=jdbc:postgresql://localhost:5432/your_database_name
+- user=your_username
+- password=your_password
 4. Build the project: mvn clean install
 
 ## Usage
